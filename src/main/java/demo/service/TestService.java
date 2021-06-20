@@ -21,4 +21,9 @@ public class TestService {
     public void insert(TestTable testTable) {
         testRepository.save(testTable);
     }
+
+    public void delete() {
+        testRepository.deleteAll();
+    }
+
 }
