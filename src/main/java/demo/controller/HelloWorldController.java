@@ -26,7 +26,7 @@ public class HelloWorldController {
 	TestService testService;
 	
 	private MultiValueMap<String,String> headers = new LinkedMultiValueMap<String,String>() {{
-		put("Access-Control-Allow-Origin", Arrays.asList("*"));
+//		put("Access-Control-Allow-Origin", Arrays.asList("*"));
 		put("Access-Control-Allow-Methods", Arrays.asList("GET,POST,DELETE,PUT,OPTIONS"));
 	}};
 
