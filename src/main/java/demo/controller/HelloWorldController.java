@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import demo.model.TestTable;
 import demo.service.TestService;
 
+@CrossOrigin("*")
 @Controller
 public class HelloWorldController {
 	@Autowired
